@@ -18,6 +18,7 @@ This project trains a Convolutional Neural Network to detect circles in noisy im
     - [Generating Synthetic Data](#generating-synthetic-data)
     - [Training the Model](#training-the-model)
     - [Testing the Model](#testing-the-model)
+    - [Visualizing Model Performance](#visualizing-model-performance)
 3. [Results](#results)
 
 # Model Architecture
@@ -39,6 +40,8 @@ The model architecture is designed to process input images (1 channel, 100x100 p
 
 
 # Usage
+
+The `Model Training` section can be skipped as long as the model weights are present in the right directory. 
 
 ## Generating Synthetic Data
 
@@ -63,6 +66,10 @@ After loading our saved weights, a dataloader for test examples feeds data into 
 A couple of helper functions are implemented to handle the tensors while calculating IOUs and further calculating the accuracy over thresholded IOU over the entire test dateset. 
 
 The model is then tested over a range of threshold values - `[0.5, 0.75, 0.9, 0.95]`.
+
+## Visualizing Model Performance
+
+Some sample circles are passed through our model to obtain predictions. The circles are plotted and the model predictions for the circle paramaters are compared with the actual parameters of the circle. The IOU scores for our prediction are calculated.
 
 # Results
 
