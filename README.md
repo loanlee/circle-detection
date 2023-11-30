@@ -41,7 +41,7 @@ The model architecture is designed to process input images (1 channel, 100x100 p
 
 # Usage
 
-The `Model Training` section can be skipped as long as the model weights are present in the right directory. 
+The `Model Training` section in the notebook can be skipped as long as the model weights are present in the right directory. 
 
 ## Generating Synthetic Data
 
