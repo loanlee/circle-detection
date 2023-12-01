@@ -77,7 +77,7 @@ The model is then tested over a range of threshold values - `[0.5, 0.75, 0.9, 0.
 
 ## Visualizing Model Performance
 
-Some sample circles are passed through our model to obtain predictions. The circles are plotted and the model predictions for the circle paramaters are compared with the actual parameters of the circle. The IOU scores for our prediction are calculated.
+Some sample circles are passed through our model to obtain predictions. The circles are plotted and the model predictions for the circle parameters are compared with the actual parameters of the circle. The IOU scores for our prediction are calculated.
 
 # Results
 
