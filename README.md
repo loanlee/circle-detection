@@ -81,7 +81,7 @@ Some sample circles are passed through our model to obtain predictions. The circ
 
 # Results
 
-The following table shows the results for a test set of 200 example circles.
+The following table shows the results for a test set of 200 noisy images with circles.
 
 | IoU Threshold | Average Accuracy |
 |---------------|------------------|
