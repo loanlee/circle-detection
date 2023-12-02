@@ -41,13 +41,13 @@ The model architecture is designed to process input images (1 channel, 100x100 p
 
 # Usage
 
-Clone this repo. 
+1. Clone this repo. 
 
 ```bash
 git clone https://github.com/loanlee/circle-detection.git
 ```
 
-Run the notebook in sequence.
+2. Run the notebook in sequence.
 
 The `Model Training` section in the notebook can be skipped as long as the model weights are present in the right directory. 
 
